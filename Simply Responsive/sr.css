@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.col{
+    background-color: #B3B3B3;
+    font-size: 200%;
+    padding: 20px;
+}
+.mol{
+    background-color: #CCCCCC;
+    font-size: 150%;
+    padding: 20px;
+    
+}
+.bol{
+    background-color: #FEFA99;
+    padding: 20px;
+    font-weight: bolder;
+}
+.row{
+   padding: 5px;
+}
+@media only screen and (max-width:480px){
+    .sm-4{
+        width: 100%;
+    } 
+}
+@media only screen and (min-width:480px){
+    .med-2{
+        width: 50%;
+    } 
+}
+@media only screen and (min-width:1024px){
+    .ld-1{
+        width: 25%;
+    } 
+}
